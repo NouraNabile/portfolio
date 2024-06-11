@@ -1,0 +1,118 @@
+/* .porder{
+    width: 10%;
+    height: 55%;
+    border: 5px  RGB(85,thick 85, 85) ;
+    border-style: solid;
+    border-width: thick;
+    margin: 200px 150px;
+    padding: 15px 150px 0 30px;
+    float: left;
+}
+.porder::before{
+    content: url(../imges/work-7.jpg);
+    
+}
+.first_line1{color: rgb(255, 48, 91);
+    font-size: 34px;
+    line-height:22px;
+}
+.first_line{
+    font-size: 34px;
+    line-height:22px;
+} */
+.content{
+    /* background-color: aquamarine; */
+    margin: 200px 20px;
+    float: left;
+    width: 50%;
+}
+.pref1{
+    font-size:16px;
+    float: left;
+    /* background-color: blueviolet; */
+    width: 30%;
+    padding: 0 50px 0 0;
+}
+.pref2{
+    /* background-color: #555555; */
+    font-size:16px;
+    float: left;
+    padding: 0 100px ;
+    width: 30%;
+}
+/*button .btn1{
+    width: 30%;
+    height: 6%;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+a .btnDownload{*/
+    /* text-align: center;
+    background-color: violet; */
+    /* width: 50px; */
+   /* margin: 0 10px 10px 0 ;
+}
+*/
+.content2{
+    overflow: auto;
+}
+button{
+    width: 30%;
+    height: 6%;
+    background-color: #ff305b;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    overflow: auto;
+}
+
+.btnDownload{
+    text-align: center;
+    /* background-color: violet; */
+    /* width: 50px; */
+    margin: 0 10px 10px 0 ;
+    /* padding-bottom: 10px; */
+}
+.btnHire{
+    text-align: center;
+    /* background-color: violet; */
+    /* width: 50px; */
+    margin: 0 10px 10px 0 ;
+}
+button img{
+    /* background-color: brown; */
+    width: 12%;
+    padding: 6px;
+}
+.services{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+.services::before{
+    content: "";
+    background-color: #ff305b;
+    width: 150px;
+    height: 1px;
+    /* border-radius: 5px solid; */
+    position: absolute;
+    top: 40px;
+    right: 45%;
+
+}
+.services::after{
+    content: "";
+    background-color: #ff305b;
+    width: 250px;
+    height: 1px;
+    /* border-radius: 7px solid; */
+    position: absolute;
+    top: 50px;
+    right: 41%;
+}
+.services_card{
+    float: left;
+
+}
